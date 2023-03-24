@@ -143,6 +143,6 @@ with graphs:
 
 with footer:
     st.caption("All data used was derived from the college scorecard dataset curated by the US Department of Education")
-    st.caption("All analysis is performed on 4 year institutions within the US 50 states. No US territories are included in this analysis expereince.")
+    st.caption("All analysis is performed on 4 year institutions within the US 50 states. No US territories are included in this analysis.")
 
 
