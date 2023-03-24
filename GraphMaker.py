@@ -127,7 +127,6 @@ def Central_Multi_Function(state, df):
                 counter = 0
         labels[group] = label
         userLabels.append(groupLabel)
-    st.text(labels)
 
     # call lower level graphic functions
     # average net prince per income level summary
