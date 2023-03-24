@@ -119,9 +119,6 @@ with selectGraph:
         graphobj=graphtype(dimension,gtype,yvalue,xvalue,zvalue) 
         st.session_state[f"graphobj{len(st.session_state)+1}"] = graphobj
         gnu.append(graphobj)
-        st.text(st.session_state)
-        for group in st.session_state.keys():    
-            st.text(type(st.session_state[group]))
         # testing func
         # update with groups
         # group = Group(region, state, admission, status, list(colleges.index)) - test
