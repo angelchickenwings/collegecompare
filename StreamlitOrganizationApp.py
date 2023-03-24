@@ -128,7 +128,6 @@ with selectGraph:
     #if deleteGraphs:
         #for graph in st.session_state.graph():
             #del st.session_state[graph]
-    st.text(f"Number of Graphs:" + str(gnum))
 
 
 with graphs:
