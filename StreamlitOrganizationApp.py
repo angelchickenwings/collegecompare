@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import statistics as stat
+import plotly.express as px
 from GraphMaker import *
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
